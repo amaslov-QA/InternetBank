@@ -1,4 +1,4 @@
-package Test;
+package test;
 
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.BeforeEach;
@@ -8,10 +8,10 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static Data.DataGenerator.Registration.getRegisteredUser;
-import static Data.DataGenerator.Registration.getUser;
-import static Data.DataGenerator.getRandomLogin;
-import static Data.DataGenerator.getRandomPassword;
+import static data.DataGenerator.Registration.getRegisteredUser;
+import static data.DataGenerator.Registration.getUser;
+import static data.DataGenerator.getRandomLogin;
+import static data.DataGenerator.getRandomPassword;
 
 class AuthTest {
 
